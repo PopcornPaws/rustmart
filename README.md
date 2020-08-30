@@ -1,1 +1,1 @@
-Single page application exercise based on this [link]("www.sheshbabu.com/posts/rust-wasm-yew-single-page-application").
+Single page application exercise based on this [link]("http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/").
