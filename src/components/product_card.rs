@@ -33,8 +33,8 @@ impl Component for ProductCard {
         html! {
             <div class="product_card_container">
                 <img class="product_card_image" src={&self.props.product.image}/>
-                <div class="product_card_name">{&self.props.porduct.name}</div>
-                <div class="product_card_price">{"$"}{&self.props.porduct.price}</div>
+                <div class="product_card_name">{&self.props.product.name}</div>
+                <div class="product_card_price">{"$"}{&self.props.product.price}</div>
                 <button class="product_atc_button" onclick=onclick>{"Add To Cart"}</button>
             </div>
         }
