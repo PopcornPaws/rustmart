@@ -16,7 +16,7 @@ pub fn get_products(callback: FetchCallback<Vec<Product>>) -> FetchTask {
 }
 
 pub fn get_product(id: i32, callback: FetchCallback<Product>) -> FetchTask {
-    let req = Request::get(format!("/products/products/{}.json", id))
+    let req = Request::get(format!("/products/{}.json", id))
         .body(Nothing)
         .unwrap();
 
